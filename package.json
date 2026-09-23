@@ -1,6 +1,6 @@
 {
   "name": "dsh-activity-bell",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH Web 侧边栏活动铃铛：会话任务结束时显示角标，一键切换到「最近结束」会话列表。",
   "type": "module",
   "license": "MIT",
@@ -38,6 +38,7 @@
     "lib",
     "cordis.patch.yml",
     "screenshots.json",
+    "assets",
     "README.md",
     "LICENSE"
   ],
