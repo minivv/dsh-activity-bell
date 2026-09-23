@@ -1,0 +1,8 @@
+node_modules/
+.tmp/
+.test-build/
+*.tgz
+*.log
+
+# `lib/` is deliberately tracked: a Git install (`dsh plugin add github:...`)
+# then carries the built bundle, so nobody has to run a build script.

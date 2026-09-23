@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.client.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": false,
+    "sourceMap": false,
+    "outDir": ".test-build",
+    "rootDir": "src",
+    "types": [
+      "node",
+      "react",
+      "react-dom"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}

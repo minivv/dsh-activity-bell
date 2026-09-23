@@ -1,0 +1,9 @@
+# dsh-activity-bell bundle patch: one host row that carries the plugin (and,
+# through `dsh.client`, its browser roster entry). All behavior lives in the
+# client half; the host half is an empty apply. Apply this bundle after
+# `dsh-base` + `dsh-web-app`, which bring the sidebar shell (ui-sidebar), the
+# session browser (ui-workspace), and the session status source (ui-session)
+# the browser half depends on.
+- insert:
+    - id: dsh-activity-bell
+      name: dsh-activity-bell
