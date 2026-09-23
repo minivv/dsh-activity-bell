@@ -1,5 +1,14 @@
 # dsh-activity-bell
 
+[![npm](https://img.shields.io/npm/v/dsh-activity-bell)](https://www.npmjs.com/package/dsh-activity-bell)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-activity-bell)](https://www.npmjs.com/package/dsh-activity-bell)
+[![license](https://img.shields.io/npm/l/dsh-activity-bell)](./LICENSE)
+[![DeepSeek Harness plugin](https://img.shields.io/badge/DSH-plugin-4f46e5)](https://github.com/deepseek-ai/deepseek-harness)
+<!-- dsh-recommend 的「精选认证」徽章是人工精选才发放的，等 zp-home/dsh-recommend 收录
+     出 data/badges/minivv__dsh-activity-bell.certified.json 后启用这一行：
+[![dsh-recommend](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fzp-home%2Fdsh-recommend%2Fmain%2Fdata%2Fbadges%2Fminivv__dsh-activity-bell.certified.json)](https://github.com/zp-home/dsh-recommend)
+-->
+
 **给 DSH 侧边栏加一个「活动」铃铛：哪个会话跑完了，铃铛上就有红色数字；点一下，就把左边的列表从「按文件夹分组」换成「按最近结束排序」。**
 
 同时开好几个会话、又跑去干别的的时候，你没法盯着每一个。这个铃铛就负责告诉你：**哪个跑完了、还有几个没看过。**
@@ -87,3 +96,14 @@ A sidebar activity bell for the DeepSeek Harness Web UI:
 ```sh
 npx -p @deepseek-ai/dsh dsh plugin --profile web add github:minivv/dsh-activity-bell
 ```
+
+## 相关插件
+
+- **[dsh-agent-skills](https://github.com/minivv/dsh-agent-skills)** —— 在 DSH 设置页里浏览、启停和管理本地 Agent Skills（Claude Code / Codex / Gemini CLI 等技能目录）。
+
+## 链接
+
+- [GitHub](https://github.com/minivv/dsh-activity-bell)
+- [npm](https://www.npmjs.com/package/dsh-activity-bell)
+- [WeiSpot](https://weispot.vercel.app/projects/dsh-activity-bell)
+- [DSH 插件市场](https://github.com/dsh-market/dsh-market)
