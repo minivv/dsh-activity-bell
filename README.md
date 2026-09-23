@@ -32,21 +32,31 @@
 
 ## 安装
 
-```sh
-npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-activity-bell
-```
+### npm（推荐）
 
-其它方式（一般用不到）：
-
-```sh
-# 从 GitHub 装：仓库里带了构建产物，不需要额外构建
-npx -p @deepseek-ai/dsh dsh plugin --profile web add github:minivv/dsh-activity-bell
-
-# 本地目录
-npx -p @deepseek-ai/dsh dsh plugin --profile web add /path/to/dsh-activity-bell
+```bash
+dsh plugin --profile web add dsh-activity-bell
 ```
 
 装完重启 `web` profile；页面开着的话刷新一下即可。
+
+### DSH 插件市场
+
+在「设置 → 插件市场」里搜索 **activity bell**，或者看 [DSH 插件市场](https://github.com/dsh-market/dsh-market) / [1024 Store](https://deepseek1024.com/)（条目 `minivv/dsh-activity-bell`）。
+
+### GitHub
+
+```bash
+dsh plugin --profile web add github:minivv/dsh-activity-bell
+```
+
+仓库里带了构建产物（`lib/`），Git 安装不需要额外跑构建脚本。
+
+### 本地目录
+
+```bash
+dsh plugin --profile web add /path/to/dsh-activity-bell
+```
 
 ## 怎么用
 
@@ -97,7 +107,7 @@ A sidebar activity bell for the DeepSeek Harness Web UI:
 - **Click again** (or `Esc`) — back to the workspace list. Rows keep the shipped affordances (pin, archive, hover title reveal), and the session you have open shows the shipped selected fill.
 
 ```sh
-npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-activity-bell
+dsh plugin --profile web add dsh-activity-bell
 ```
 
 ## 相关插件
