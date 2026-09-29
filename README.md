@@ -40,6 +40,8 @@ dsh plugin --profile web add dsh-activity-bell
 
 装完重启 `web` profile；页面开着的话刷新一下即可。
 
+> 兼容性：dsh `0.1.x`（含 0.1.7-rc）与 `0.2.0-rc.1` 起的 0.2.x 都可以用。
+
 ### DSH 插件市场
 
 在「设置 → 插件市场」里搜索 **activity bell**，或者看 [DSH 插件市场](https://github.com/dsh-market/dsh-market) / [1024 Store](https://deepseek1024.com/)（条目 `minivv/dsh-activity-bell`）。
